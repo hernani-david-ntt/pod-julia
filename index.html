@@ -375,70 +375,7 @@
             <h1>Julia</h1>
 
             <div class="qr-container">
-                <!-- Fallback to qrcode.jpg if available, else render beautiful vector QR code with T-rex -->
-                <img src="qrcode.png" alt="QRCode do Julia" id="qr-image" style="display: none; width: 100%; height: auto;" onerror="document.getElementById('qr-svg').style.display='block'; this.style.display='none';">
-                
-                <svg id="qr-svg" viewBox="0 0 100 100" width="100%" height="auto" style="display: block;">
-                    <!-- QR Code Grid Mockup -->
-                    <rect width="100" height="100" fill="white" />
-                    <!-- Finder Pattern Top-Left -->
-                    <rect x="5" y="5" width="25" height="25" fill="black" />
-                    <rect x="9" y="9" width="17" height="17" fill="white" />
-                    <rect x="13" y="13" width="9" height="9" fill="black" />
-                    <!-- Finder Pattern Top-Right -->
-                    <rect x="70" y="5" width="25" height="25" fill="black" />
-                    <rect x="74" y="9" width="17" height="17" fill="white" />
-                    <rect x="78" y="13" width="9" height="9" fill="black" />
-                    <!-- Finder Pattern Bottom-Left -->
-                    <rect x="5" y="70" width="25" height="25" fill="black" />
-                    <rect x="9" y="74" width="17" height="17" fill="white" />
-                    <rect x="13" y="13" width="9" height="9" fill="black" />
-                    
-                    <!-- Stylized QR blocks -->
-                    <rect x="35" y="5" width="5" height="5" fill="black" />
-                    <rect x="45" y="5" width="10" height="5" fill="black" />
-                    <rect x="60" y="5" width="5" height="5" fill="black" />
-                    <rect x="35" y="15" width="5" height="10" fill="black" />
-                    <rect x="45" y="15" width="5" height="5" fill="black" />
-                    <rect x="55" y="10" width="5" height="10" fill="black" />
-                    <rect x="60" y="20" width="5" height="5" fill="black" />
-                    <rect x="35" y="25" width="10" height="5" fill="black" />
-                    <rect x="50" y="25" width="5" height="5" fill="black" />
-                    <rect x="60" y="25" width="5" height="5" fill="black" />
-                    
-                    <rect x="70" y="35" width="5" height="10" fill="black" />
-                    <rect x="80" y="35" width="10" height="5" fill="black" />
-                    <rect x="75" y="45" width="5" height="5" fill="black" />
-                    <rect x="85" y="45" width="5" height="10" fill="black" />
-                    <rect x="70" y="55" width="10" height="5" fill="black" />
-                    <rect x="85" y="55" width="5" height="5" fill="black" />
-                    <rect x="90" y="60" width="5" height="5" fill="black" />
-                    
-                    <rect x="5" y="35" width="10" height="5" fill="black" />
-                    <rect x="20" y="35" width="5" height="5" fill="black" />
-                    <rect x="10" y="45" width="5" height="10" fill="black" />
-                    <rect x="25" y="40" width="5" height="5" fill="black" />
-                    <rect x="5" y="55" width="5" height="5" fill="black" />
-                    <rect x="15" y="55" width="10" height="5" fill="black" />
-                    <rect x="25" y="50" width="5" height="5" fill="black" />
-                    <rect x="20" y="60" width="5" height="10" fill="black" />
-
-                    <!-- Alignment pattern Bottom-Right -->
-                    <rect x="75" y="75" width="15" height="15" fill="black" />
-                    <rect x="78" y="78" width="9" height="9" fill="white" />
-                    <rect x="81" y="81" width="3" height="3" fill="black" />
-                    <rect x="70" y="70" width="5" height="5" fill="black" />
-                    <rect x="70" y="80" width="5" height="10" fill="black" />
-                    <rect x="90" y="70" width="5" height="5" fill="black" />
-                    <rect x="80" y="90" width="15" height="5" fill="black" />
-                    
-                    <!-- Center cutout for Dinosaur -->
-                    <rect x="32" y="32" width="36" height="36" fill="white" />
-                    <rect x="35" y="35" width="30" height="30" fill="white" stroke="black" stroke-width="1" rx="3" />
-                    
-                    <!-- Chrome Dino Silhouette -->
-                    <path fill="black" d="M57,38h-7v2h-1v2h-1v1h-1v2h-2v1h-1v2h1v1h1v1h1v1h1v1h1v-1h1v-1h1v-1h2v3h-1v1h-1v1h-2v1h3v-1h1v-1h1v-2h3v1h1v1h1v-1h1v-3h-1v-1h-1v-4h-1v-1h1v-2h2v-2h1v-1z" />
-                </svg>
+                <img src="qrcode.png" alt="QRCode do Julia" id="qr-image" style="display: none; width: 100%; height: auto;" this.style.display='none';">
             </div>
         </aside>
     </main>
